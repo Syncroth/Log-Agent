@@ -1,0 +1,97 @@
+[
+    {
+        "timestamp": "2024-07-07T12:34:56Z",
+        "level": "INFO",
+        "event": "User Login",
+        "details": {
+            "user": "john_doe",
+            "ip": "192.168.1.10",
+            "sessionID": "abc123",
+            "status": "Success"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:35:01Z",
+        "level": "ERROR",
+        "event": "File Access",
+        "details": {
+            "user": "john_doe",
+            "file": "/restricted/financial_report.xlsx",
+            "operation": "Read",
+            "status": "Denied",
+            "reason": "Permission Denied"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:35:10Z",
+        "level": "INFO",
+        "event": "File Access",
+        "details": {
+            "user": "john_doe",
+            "file": "/public/annual_report.pdf",
+            "operation": "Read",
+            "status": "Success"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:36:15Z",
+        "level": "WARNING",
+        "event": "System Resource",
+        "details": {
+            "cpu_usage": "85%",
+            "memory_usage": "70%"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:37:22Z",
+        "level": "INFO",
+        "event": "User Logout",
+        "details": {
+            "user": "john_doe",
+            "sessionID": "abc123",
+            "duration": "146 seconds"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:45:00Z",
+        "level": "INFO",
+        "event": "User Login",
+        "details": {
+            "user": "jane_smith",
+            "ip": "192.168.1.15",
+            "sessionID": "def456",
+            "status": "Success"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:47:34Z",
+        "level": "INFO",
+        "event": "File Access",
+        "details": {
+            "user": "jane_smith",
+            "file": "/public/sales_data.csv",
+            "operation": "Write",
+            "status": "Success"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:50:00Z",
+        "level": "ERROR",
+        "event": "System Error",
+        "details": {
+            "error_code": 500,
+            "message": "Internal Server Error",
+            "service": "Authentication Service"
+        }
+    },
+    {
+        "timestamp": "2024-07-07T12:55:10Z",
+        "level": "INFO",
+        "event": "User Logout",
+        "details": {
+            "user": "jane_smith",
+            "sessionID": "def456",
+            "duration": "310 seconds"
+        }
+    }
+]

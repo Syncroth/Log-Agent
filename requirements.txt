@@ -1,0 +1,9 @@
+python-dotenv
+langchain
+langgraph
+langchain-community
+langchain-openai
+langchainhub
+langchain-google-genai
+aiosqlite
+neo4j
