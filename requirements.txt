@@ -7,3 +7,5 @@ langchainhub
 langchain-google-genai
 aiosqlite
 neo4j
+langchain-chroma
+jq

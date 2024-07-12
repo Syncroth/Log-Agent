@@ -93,5 +93,126 @@
             "sessionID": "def456",
             "duration": "310 seconds"
         }
+    },
+    {
+        "timestamp": "2024-07-10T10:15:30Z",
+        "log_level": "ERROR",
+        "message": "Database connection failed due to timeout.",
+        "context": "DatabaseService"
+    },
+    {
+        "timestamp": "2024-07-10T10:17:45Z",
+        "log_level": "INFO",
+        "message": "User 'john_doe' successfully logged in.",
+        "context": "AuthService"
+    },
+    {
+        "timestamp": "2024-07-10T10:20:10Z",
+        "log_level": "WARNING",
+        "message": "High memory usage detected on server 'web-01'.",
+        "context": "SystemMonitor"
+    },
+    {
+        "timestamp": "2024-07-10T10:22:55Z",
+        "log_level": "DEBUG",
+        "message": "Executing query 'SELECT * FROM users WHERE active = 1'.",
+        "context": "DatabaseService"
+    },
+    {
+        "timestamp": "2024-07-10T10:25:30Z",
+        "log_level": "ERROR",
+        "message": "Failed to send email to 'jane_doe@example.com'. SMTP server not responding.",
+        "context": "EmailService"
+    },
+    {
+        "timestamp": "2024-07-10T10:27:45Z",
+        "log_level": "INFO",
+        "message": "System backup completed successfully.",
+        "context": "BackupService"
+    },
+    {
+        "timestamp": "2024-07-10T10:30:00Z",
+        "log_level": "WARNING",
+        "message": "Disk space on 'db-02' is running low.",
+        "context": "SystemMonitor"
+    },
+    {
+        "timestamp": "2024-07-10T10:32:15Z",
+        "log_level": "DEBUG",
+        "message": "Cache cleared for user 'john_doe'.",
+        "context": "CacheService"
+    },
+    {
+        "timestamp": "2024-07-10T10:35:30Z",
+        "log_level": "ERROR",
+        "message": "Unhandled exception in 'PaymentService': NullReferenceException.",
+        "context": "PaymentService"
+    },
+    {
+        "timestamp": "2024-07-10T10:37:45Z",
+        "log_level": "INFO",
+        "message": "User 'alice_smith' logged out.",
+        "context": "AuthService"
+    },
+    {
+        "timestamp": "2024-07-10T10:40:00Z",
+        "log_level": "WARNING",
+        "message": "Potential security breach detected from IP '192.168.1.100'.",
+        "context": "SecurityService"
+    },
+    {
+        "timestamp": "2024-07-10T10:42:15Z",
+        "log_level": "DEBUG",
+        "message": "User preferences updated for 'alice_smith'.",
+        "context": "UserService"
+    },
+    {
+        "timestamp": "2024-07-10T10:45:30Z",
+        "log_level": "ERROR",
+        "message": "Payment gateway 'Stripe' returned an error: Invalid API key.",
+        "context": "PaymentService"
+    },
+    {
+        "timestamp": "2024-07-10T10:47:45Z",
+        "log_level": "INFO",
+        "message": "Scheduled task 'DataCleanup' completed.",
+        "context": "TaskScheduler"
+    },
+    {
+        "timestamp": "2024-07-10T10:50:00Z",
+        "log_level": "WARNING",
+        "message": "CPU temperature on 'web-02' exceeds safe limits.",
+        "context": "SystemMonitor"
+    },
+    {
+        "timestamp": "2024-07-10T10:52:15Z",
+        "log_level": "DEBUG",
+        "message": "User session data refreshed for 'john_doe'.",
+        "context": "SessionService"
+    },
+    {
+        "timestamp": "2024-07-10T10:55:30Z",
+        "log_level": "ERROR",
+        "message": "API request to 'https://api.example.com/data' failed: 500 Internal Server Error.",
+        "context": "APIService"
+    },
+    {
+        "timestamp": "2024-07-10T10:57:45Z",
+        "log_level": "INFO",
+        "message": "New user 'charlie_brown' registered.",
+        "context": "AuthService"
+    },
+    {
+        "timestamp": "2024-07-10T11:00:00Z",
+        "log_level": "WARNING",
+        "message": "Network latency between 'web-01' and 'db-01' is high.",
+        "context": "NetworkMonitor"
+    },
+    {
+        "timestamp": "2024-07-10T11:02:15Z",
+        "log_level": "DEBUG",
+        "message": "Debugging mode enabled for 'PaymentService'.",
+        "context": "PaymentService"
     }
+
 ]
