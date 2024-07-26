@@ -1,0 +1,15 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  group_id_prefix: "vectorstore_consumer_group_"
+  auto_offset_reset: "earliest"
+  enable_auto_commit: true
+  topics: ["logs"]
+  
+
+processing:
+  batch_size: 100
+  idle_timeout: 5
+  max_workers: 5
+  max_messages: 20000
+
+log_file_path: "data/Proxifier.log"

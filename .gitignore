@@ -1,1 +1,6 @@
 /venv
+.env
+/notebooks
+/helpers
+*Zone.Identifier
+.vscode
